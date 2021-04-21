@@ -4,7 +4,7 @@ public class EmailValidation {
 
   public static boolean isvalid(String emailId) {
 
-      String pattern="^[A-Z a-z 0-9]*$";
+      String pattern="^[A-Z a-z 0-9]+@[0-9 a-z A-Z]+$";
 
   	Pattern P=Pattern.compile(pattern);
   	 if(emailId == null) {
